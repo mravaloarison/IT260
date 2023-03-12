@@ -344,14 +344,14 @@ class Program
                 case "3": myCar.StartCar();                       break;
                 case "4": myCar.GearMenu();                       break;
                 case "5": myCar.IncreaseSpeed(5);
-                        myCar.Move();                           break;
+                          myCar.Move();                           break;
                 case "6": myCar.FillGasTank();                    break;
                 case "7": myCar.BlinkerMenu();                    break;
                 case "8": myCar.Brake();                          break;
                 case "9": myCar.isStarted = false;                     
-                        isEnd = true;                           break;
+                          isEnd = true;                           break;
                 default : Console.ForegroundColor = ConsoleColor.DarkRed;
-                        Console.WriteLine("\nInvalid command"); break;
+                          Console.WriteLine("\nInvalid command"); break;
             }
             // Closing switch
         }
